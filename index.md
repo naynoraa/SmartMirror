@@ -13,6 +13,91 @@ This will serve as a brief description of your project. Limit this to three sent
 
 # Second Milestone
 
+```css
+.currentweather, .wi-day-sunny {
+content: url("/css/icons/animated/day.svg");
+}
+
+.currentweather, .wi-day-cloudy {
+content: url("/css/icons/animated/cloudy-day-1.svg");
+}
+
+.currentweather, .wi-rain {
+content: url("/css/icons/animated/rainy-6.svg");
+}
+
+.currentweather, .wi-night-clear {
+content: url("/css/icons/animated/night.svg");
+}
+
+.currentweather, .wi-night-cloudy {
+content: url("/css/icons/animated/cloudy-night-2.svg")
+}
+
+.currentweather, .wi-cloudy {
+content: url("/css/icons/animated/cloudy.svg");
+}
+
+.currentweather, .wi-showers {
+content: url("/css/icons/animated/rainy-7.svg");
+}
+
+.currentweather, .wi-thunderstorm {
+content: url("/css/icons/animated/thunder.svg");
+}
+
+.currentweather, .wi-snow {
+content: url("/css/icons/animated/snowy-6.svg");
+}
+
+.currentweather, .wi-cloudy-windy {
+content: url("/css/icons/animated/cloudy-day-3.svg");
+}
+
+.currentweather, .wi-night-rain {
+content: url("/css/icons/animated/rainy-6.svg");
+}
+
+.currentweather, .wi-night-snow {
+content: url("/css/icons/animated/snowy-6.svg");
+}
+
+.currentweather, .wi-night-thunderstorm {
+content: url("/css/icons/animated/thunder.svg");
+}
+
+.currentweather, .wi-night-showers {
+content: url("/css/icons/animated/rainy-7.svg");
+}
+
+.currentweather, .wi-fog {
+content: url("/css/icons/animated/cloudy.svg");
+}
+
+.currentweather, .wi-night-alt-cloudy-windy {
+content: url("/css/icons/animated/cloudy-night-1.svg");
+}
+
+
+.weatherforecast, .wi-day-sunny {
+content: url("/css/icons/animated/day.svg");
+  height: 48px;
+  margin-top: 10px;
+}
+
+.weatherforecast, .wi-day-cloudy {
+content: url("/css/icons/animated/cloudy-day-1.svg");
+  height: 48px;
+  margin-top: 10px;
+}
+
+.weatherforecast, .wi-rain {
+content: url("/css/icons/animated/rainy-6.svg");
+  height: 48px;
+  margin-top: 10px;
+}
+```
+
 [![Third Milestone]
 # First Milestone: Setting Up
   
