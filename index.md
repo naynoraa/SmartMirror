@@ -13,6 +13,8 @@ This will serve as a brief description of your project. Limit this to three sent
 
 # Second Milestone
 
+![image](https://im2.ezgif.com/tmp/ezgif-2-70c606770da4.gif)
+
 ```css
 .currentweather, .wi-day-sunny {
 content: url("/css/icons/animated/day.svg");
