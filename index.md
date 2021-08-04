@@ -77,8 +77,11 @@ content: url("/css/icons/animated/cloudy.svg");
 .currentweather, .wi-night-alt-cloudy-windy {
 content: url("/css/icons/animated/cloudy-night-1.svg");
 }
+```
 
+Code that I used in order to change the weather icons into animated ones in the current weather section.
 
+```css
 .weatherforecast, .wi-day-sunny {
 content: url("/css/icons/animated/day.svg");
   height: 48px;
@@ -97,7 +100,7 @@ content: url("/css/icons/animated/rainy-6.svg");
   margin-top: 10px;
 }
 ```
-Code that I used in order to change the weather icons into animated ones.
+Code that I used in order to change the weather icons into animated onesin the forecasst section. These have extra code to change their size and position in order for them to fit better.
 
 [![Third Milestone]
 # First Milestone: Setting Up
