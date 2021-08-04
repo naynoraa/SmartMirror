@@ -97,11 +97,12 @@ content: url("/css/icons/animated/rainy-6.svg");
   margin-top: 10px;
 }
 ```
+Code that I used in order to change the weather icons into animated ones.
 
 [![Third Milestone]
 # First Milestone: Setting Up
   
 
-My first milestone was setting up and hooking up the Raspberry Pi and all the necessary components onto my monitor and installing the Smart Mirror program. In order to get the Rasberry pi working, I had to first download the Raspbewrry Pi software and upload it to a USB, which I then used plugged into my Rapberry Pi. From there, I hooked up the monitor and keyboard and mouse, allowing me to finally edit my smart mirror. Here, I ran intto a few roadblocks, the main one being getting used to the foreign UI and coding language used. Fortunately, I was able to figure it out and see how my smart mirror looks!
+My first milestone was setting up and hooking up the Raspberry Pi and all the necessary components onto my monitor and installing the Smart Mirror program. In order to get the Rasberry Pi working, I had to first download the corrosponding software and upload it onto a USB, which I then used plugged into my Raspberry Pi. From there, I connected a monitor and keyboard and mouse, allowing me to see and edit my smart mirror. Here, I ran into a few roadblocks, with the main one being getting used to the foreign UI and coding language used. Fortunately, I was able to figure it out and start working on my smart mirror!
 
 <html><iframe width="560" height="315" src="https://www.youtube.com/embed/Sqnx8fd6HXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></html>
