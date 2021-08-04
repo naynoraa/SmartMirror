@@ -100,7 +100,7 @@ content: url("/css/icons/animated/rainy-6.svg");
   margin-top: 10px;
 }
 ```
-Code that I used in order to change the weather icons into animated onesin the forecasst section. These have extra code to change their size and position in order for them to fit better.
+Code that I used in order to change the weather icons into animated ones in the forecast section. These have extra code to change their size and position in order for them to fit better.
 
 [![Third Milestone]
 # First Milestone: Setting Up
