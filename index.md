@@ -13,7 +13,7 @@ This will serve as a brief description of your project. Limit this to three sent
 
 # Second Milestone
 
-![image](https://im2.ezgif.com/tmp/ezgif-2-70c606770da4.gif)
+![image](https://cdn.discordapp.com/attachments/869253167156711444/873238633195397190/ezgif-4-da96d34b3115.gif)
 
 ```css
 .currentweather, .wi-day-sunny {
