@@ -13,6 +13,8 @@ My project is the Smart Mirror, which displays various essential data like the t
 
 # Second Milestone: Adding Modifications
 
+My second milestone was modifying my Smart Mirror even further by changing my weather icons into animated ones and adding an IR sensor in order to make my Smart Mirror turn on and off depending on whether someone is in front of it or not. In order to get my animated weather icons, I first had to download a package of them from the internet and put it in my css folder. From there, I added various blocks of cod eto my custom.css file, which complete the changing process. For my IR sensor, I first tried using python, a language I had never used befoer, and my terminal in order to open my Magic Mirror when someone was detected. However, this was very slow, so I searched online for a module that did the same thng and installed it into my code to hasten the process.
+
 ![image](https://cdn.discordapp.com/attachments/869253167156711444/873238633195397190/ezgif-4-da96d34b3115.gif)
 
 ```css
