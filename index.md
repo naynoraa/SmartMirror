@@ -1,5 +1,5 @@
 ﻿# Smart Mirror
-This will serve as a brief description of your project. Limit this to three sentences because it can become overly long at that point. This copy should draw the user in and make she/him want to read more.
+My project is the Smart Mirror, which displays various essential data like the time, weather, and current events through the use of Raspberry Pi and various coding languages like JavaScript, CSS, and Python. In addition to the default modules, I also added some modifications like adding animated icons for my weather module and an IR sensor to turn the Smart Mirror on if someone stands in from of it.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -11,7 +11,7 @@ This will serve as a brief description of your project. Limit this to three sent
 
 [![Final Milestone]
 
-# Second Milestone
+# Second Milestone: Adding Modifications
 
 ![image](https://cdn.discordapp.com/attachments/869253167156711444/873238633195397190/ezgif-4-da96d34b3115.gif)
 
