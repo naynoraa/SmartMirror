@@ -81,7 +81,7 @@ content: url("/css/icons/animated/cloudy-night-1.svg");
 }
 ```
 
-Code that I used in order to change the weather icons into animated ones in the current weather section.
+Code that I used in order to change the weather icons into animated ones in the current weather section. Specifically, the code works by targetting certain icons in certain parts of my Smart Mirror, like the "wi-day-sunny" icon in the "currentweather" section. From there, it takes an icon I downloaded from the internet by entering into it's file and replaces the previous icon.
 
 ```css
 .weatherforecast, .wi-day-sunny {
@@ -102,7 +102,7 @@ content: url("/css/icons/animated/rainy-6.svg");
   margin-top: 10px;
 }
 ```
-Code that I used in order to change the weather icons into animated ones in the forecast section. These have extra code to change their size and position in order for them to fit better.
+Code that I used in order to change the weather icons into animated ones in the forecast section. The code here is mostly the same, but these have extra code to change their size with the "height" variable and their position with the "margin-top" variable, leading to a better-looking mdoule.
 
 [![Third Milestone]
 # First Milestone: Setting Up
