@@ -15,6 +15,8 @@ My project is the Smart Mirror, which displays various essential data like the t
 
 My second milestone was modifying my Smart Mirror even further by changing my weather icons into animated ones and adding an ultrasonic sensor in order to make my Smart Mirror turn on and off depending on whether someone is in front of it or not. In order to get my animated weather icons, I first had to download a package of them from the internet and put it in my css folder. From there, I added various blocks of cod eto my custom.css file, which complete the changing process. For my ultrasonic sensor, I first tried using python, a language I had never used before, and my terminal in order to open my Magic Mirror when someone was detected. However, this was very slow, so I tried searching online for a module that did the same thng and installed it into my code, but the installation didn't work for some reason. This brought me back to the python idea. This time, I decided to have both the MagicMirror Screen and a blank screen and switch between them using the terminal with the tvservice -p (turns monitor on), tvservice -o (turns monitor off), and chvt6 && chvt 7 (orients screen) commands.
 
+<html><iframe width="560" height="315" src="https://www.youtube.com/embed/XgFizHh4AUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></html>
+
 ![image](https://cdn.discordapp.com/attachments/869253167156711444/873238633195397190/ezgif-4-da96d34b3115.gif)
 
 ```css
