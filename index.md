@@ -19,6 +19,8 @@ My second milestone was modifying my Smart Mirror even further by changing my we
 
 ![image](https://cdn.discordapp.com/attachments/869253167156711444/873238633195397190/ezgif-4-da96d34b3115.gif)
 
+A Gif showcasing an animated icon
+
 ```css
 .currentweather, .wi-day-sunny {
 content: url("/css/icons/animated/day.svg");
