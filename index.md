@@ -5,12 +5,12 @@ My project is the Smart Mirror, which displays various essential data like the t
 |:--:|:--:|:--:|:--:|
 | Aaron Yan | Lynbrook High School | Engineering | Incoming Junior
 
-![Headstone Image]
   
 # Final Milestone: In-depth Demo
 
 Since my second milestone took so much time, I never really had the chance to do much for my final one. Instead, I will dive more in depth into the specifics of how everything happened and the steps I took to achieve everything. I will also discuss my future plans to fully complete my project after my time at Bluestamp.
 
+<html><iframe width="560" height="315" src="https://www.youtube.com/embed/yz0qwuvHPgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></html>
 
 ```py
 import RPi.GPIO as GPIO
