@@ -11,7 +11,71 @@ My project is the Smart Mirror, which displays various essential data like the t
 
 Since my second milestone took so much time, I never really had the chance to do much for my final one. Instead, I will dive more in depth into the specifics of how everything happened and the steps I took to achieve everything. I will also discuss my future plans to fully complete my project after my time at Bluestamp.
 
-[![Final Milestone]
+
+```py
+import RPi.GPIO as GPIO
+import time
+import os
+GPIO.setwarnings(False)
+```
+This imports the package "RPi.GPIO in order" to properly read my ultrasonic sensor, the package "time" to add delays to my code,  and the package "os" so my code can interact with Terminal. The last line of code sets the warnings to off so that they aren't distracting.
+
+```py
+def Init():
+    os.chdir("../MagicMirror/")
+    os.system("npm start run & sudo tvservice -p")
+    
+def off():
+    os.system("sudo tvservice -o")
+    os.system("sudo tvservice -p")
+    
+def on():
+    os.system("sudo chvt 6 && sudo chvt 7")
+```
+This defines the functions "Init",  "off", and "on". "Init" initializes everything by opening the magic mirror tab, while "on" and "off" turn the monitor on and off by manipulating the HDMI port. The "off" function actually works by turning the monitor off and then on. I did this because if you turn off the monitor for too long, a "no signal" block will pop off. Also, for some reason when I turn the monitor back on it stays black and only properly shows things when "sudo chvt 6 && sudo chvt 7" is run.
+```py
+GPIO_TRIGGER = 6
+GPIO_ECHO = 5
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(GPIO_TRIGGER, GPIO.OUT)
+GPIO.setup(GPIO_ECHO, GPIO.IN)
+```
+This sets all the values regarding the GPIO pins, which also control the ultrasonic sensor. This states that the "Trigger" is plugged into pin 6 and the "Echo" is plugged into pin 5. This also sets up the GPIO by setting it to BCM mode and configuring "Trigger" to be the output and "Echo" to be the input.
+```py
+def distance():
+  GPIO.output(GPIO_TRIGGER, True)
+  
+  time.sleep(0.00001)
+  GPIO.output(GPIO_TRIGGER, False)
+  
+  StartTime = time.time()
+  StopTime = time.time()
+  
+  while GPIO.input(GPIO_ECHO) == 0:
+      StartTime = time.time()
+  
+  while GPIO.input(GPIO_ECHO) == 1:
+      StopTime = time.time()
+  
+  TimeElapsed = StopTime - StartTime
+  
+  distance = (TimeElapsed * 34300)/2
+  
+  return distance
+```
+This finds the distance measured by the ultrasonic sensor in a very interesting way. How this works is that it measures the amount of time a beam fired from the ultrasonic sensor takes to bounce back. From there, it uses an algorithm to convert that time into a distance and return it.
+```py
+Init()
+while True:
+    d = distance()
+    if (d < 100):
+        on()
+        time.sleep(600)
+        off()
+```
+This serves as the main code of this program, taking and utilising all of the functions previously defined. First, it initialises the magic mirror before entering into a loop. Here, it measures the distance every time and if it is less than a certain amount, it turns the screen on and allows the magic mirror to be seen. From here, it waits 600 seconds (10 minutes) before turning off and restarting the cycle.
+
 
 # Second Milestone: Adding Modifications
 
