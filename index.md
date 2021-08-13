@@ -18,7 +18,7 @@ import time
 import os
 GPIO.setwarnings(False)
 ```
-This imports the package "RPi.GPIO in order" to properly read my ultrasonic sensor, the package "time" to add delays to my code,  and the package "os" so my code can interact with Terminal. The last line of code sets the warnings to off so that they aren't distracting.
+This imports the package "RPi.GPIO in order" to properly read my ultrasonic sensor, the package "time" to add delays to my code, and the package "os" so my code can interact with Terminal. The last line of code sets the warnings to off so that they aren't distracting.
 
 ```py
 def Init():
@@ -32,7 +32,7 @@ def off():
 def on():
     os.system("sudo chvt 6 && sudo chvt 7")
 ```
-This defines the functions "Init",  "off", and "on". "Init" initializes everything by opening the magic mirror tab, while "on" and "off" turn the monitor on and off by manipulating the HDMI port. The "off" function actually works by turning the monitor off and then on. I did this because if you turn off the monitor for too long, a "no signal" block will pop off. Also, for some reason when I turn the monitor back on it stays black and only properly shows things when "sudo chvt 6 && sudo chvt 7" is run.
+This defines the functions "Init",  "off", and "on". "Init" initializes everything by opening the magic mirror tab, while "on" and "off" turn the monitor on and off by manipulating the HDMI port. The "off" function actually works by turning the monitor off and then on. I did this because if you turn off the monitor for too long, a "no signal" block will pop up. Also, for some reason when I turn the monitor back on it stays black and only properly shows things when "sudo chvt 6 && sudo chvt 7" is run, which allows this algorithm to work.
 ```py
 GPIO_TRIGGER = 6
 GPIO_ECHO = 5
