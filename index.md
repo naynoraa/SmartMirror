@@ -7,7 +7,9 @@ My project is the Smart Mirror, which displays various essential data like the t
 
 ![Headstone Image]
   
-# Final Milestone
+# Final Milestone: In-depth Demo
+
+Since my second milestone took so much time, I never really had the chance to do much for my final one. Instead, I will dive more in depth into the specifics of how everything happened and the steps I took to achieve everything. I will also discuss my future plans to fully complete my project after my time at Bluestamp.
 
 [![Final Milestone]
 
@@ -110,7 +112,6 @@ content: url("/css/icons/animated/rainy-6.svg");
 ```
 Code that I used in order to change the weather icons into animated ones in the forecast section. The code here is mostly the same, but these have extra code to change their size with the "height" variable and their position with the "margin-top" variable, leading to a better-looking mdoule.
 
-[![Third Milestone]
 # First Milestone: Setting Up
   
 
